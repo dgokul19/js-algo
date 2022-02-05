@@ -25,7 +25,6 @@ const findTwoSum = (arr, target) => {
       return [result[targetValue], index];
     }
     result[arr[index]] = index;
-    console.log(targetValue, result);
   }
   return null;
 };
